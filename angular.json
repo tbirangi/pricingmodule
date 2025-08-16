@@ -16,7 +16,7 @@
             "outputPath": "dist/pricingmodel",
             "index": "src/index.html",
             "main": "src/main.ts",
-            "baseHref": "pricingmodule",
+            "baseHref": "/pricingmodule/",
             "polyfills": [
               "zone.js"
             ],
