@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "pricingmodel": {
+    "pricingmodule": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/pricingmodel",
+            "outputPath": "dist/pricingmodule",
             "index": "src/index.html",
             "main": "src/main.ts",
             "baseHref": "/pricingmodule/",
@@ -61,10 +61,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "pricingmodel:build:production"
+              "browserTarget": "pricingmodule:build:production"
             },
             "development": {
-              "browserTarget": "pricingmodel:build:development"
+              "browserTarget": "pricingmodule:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -72,7 +72,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "pricingmodel:build"
+            "browserTarget": "pricingmodule:build"
           }
         },
         "test": {
